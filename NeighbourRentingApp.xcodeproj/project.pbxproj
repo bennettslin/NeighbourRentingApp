@@ -7,6 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F0272AA195794A3009C1F59 /* RenterTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F0272A9195794A3009C1F59 /* RenterTabBarController.m */; };
+		3F0FFB6F1950F8180041487E /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F0FFB681950F8180041487E /* MainViewController.m */; };
+		3F0FFB701950F8180041487E /* CenterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F0FFB6A1950F8180041487E /* CenterViewController.m */; };
+		3F0FFB711950F8180041487E /* LeftPanelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F0FFB6C1950F8180041487E /* LeftPanelViewController.m */; };
+		3F4794AB19527A5B000229A4 /* OwnerTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F4794AA19527A5B000229A4 /* OwnerTabBarViewController.m */; };
+		3F6C6CE71952204C00EF017A /* ProfileTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F6C6CE61952204C00EF017A /* ProfileTableViewCell.m */; };
+		3F6C6CED1952208700EF017A /* OwnerRenterTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F6C6CEC1952208700EF017A /* OwnerRenterTableViewCell.m */; };
+		3F8C5680195795990011780F /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F8C567F195795990011780F /* MapViewController.m */; };
+		3F8C568319579B1C0011780F /* Annotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F8C568219579B1C0011780F /* Annotation.m */; };
+		3FAC57781969B67900A818D0 /* hamburger_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FAC57771969B67900A818D0 /* hamburger_icon.png */; };
+		3FAC577D1969C41600A818D0 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FAC577C1969C41600A818D0 /* User.m */; };
+		3FAC57801969C42A00A818D0 /* Item.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FAC577F1969C42A00A818D0 /* Item.m */; };
+		3FDBC7C319526DDF004975F8 /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FDBC7C219526DDF004975F8 /* ProfileViewController.m */; };
 		3FDD1291194EB58F0039C2A4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FDD1290194EB58F0039C2A4 /* Foundation.framework */; };
 		3FDD1293194EB58F0039C2A4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FDD1292194EB58F0039C2A4 /* CoreGraphics.framework */; };
 		3FDD1295194EB58F0039C2A4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FDD1294194EB58F0039C2A4 /* UIKit.framework */; };
@@ -14,13 +27,18 @@
 		3FDD129D194EB58F0039C2A4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FDD129C194EB58F0039C2A4 /* main.m */; };
 		3FDD12A1194EB5900039C2A4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FDD12A0194EB5900039C2A4 /* AppDelegate.m */; };
 		3FDD12A4194EB5900039C2A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FDD12A2194EB5900039C2A4 /* Main.storyboard */; };
-		3FDD12A7194EB5900039C2A4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FDD12A6194EB5900039C2A4 /* ViewController.m */; };
 		3FDD12A9194EB5900039C2A4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FDD12A8194EB5900039C2A4 /* Images.xcassets */; };
 		3FDD12B0194EB5900039C2A4 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FDD12AF194EB5900039C2A4 /* XCTest.framework */; };
 		3FDD12B1194EB5900039C2A4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FDD1290194EB58F0039C2A4 /* Foundation.framework */; };
 		3FDD12B2194EB5900039C2A4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FDD1294194EB58F0039C2A4 /* UIKit.framework */; };
 		3FDD12BA194EB5900039C2A4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3FDD12B8194EB5900039C2A4 /* InfoPlist.strings */; };
 		3FDD12BC194EB5900039C2A4 /* NeighbourRentingAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FDD12BB194EB5900039C2A4 /* NeighbourRentingAppTests.m */; };
+		3FDD12C6194EB6EA0039C2A4 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FDD12C5194EB6EA0039C2A4 /* FacebookSDK.framework */; };
+		3FDD12C9194EB8060039C2A4 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FDD12C8194EB8060039C2A4 /* LoginViewController.m */; };
+		3FE2C459196A3C3D0098DBCD /* ItemsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FE2C458196A3C3D0098DBCD /* ItemsViewController.m */; };
+		3FE2C45C196A3EBF0098DBCD /* ItemViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FE2C45B196A3EBF0098DBCD /* ItemViewCell.m */; };
+		3FE75E78195772C300AEB70B /* PickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FE75E77195772C300AEB70B /* PickerViewController.m */; };
+		3FE75E7B1957837300AEB70B /* PickerFormViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FE75E7A1957837300AEB70B /* PickerFormViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +52,31 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3F0272A8195794A3009C1F59 /* RenterTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RenterTabBarController.h; sourceTree = "<group>"; };
+		3F0272A9195794A3009C1F59 /* RenterTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RenterTabBarController.m; sourceTree = "<group>"; };
+		3F0FFB671950F8180041487E /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		3F0FFB681950F8180041487E /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		3F0FFB691950F8180041487E /* CenterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CenterViewController.h; sourceTree = "<group>"; };
+		3F0FFB6A1950F8180041487E /* CenterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CenterViewController.m; sourceTree = "<group>"; };
+		3F0FFB6B1950F8180041487E /* LeftPanelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftPanelViewController.h; sourceTree = "<group>"; };
+		3F0FFB6C1950F8180041487E /* LeftPanelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftPanelViewController.m; sourceTree = "<group>"; };
+		3F4794A919527A5B000229A4 /* OwnerTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OwnerTabBarViewController.h; sourceTree = "<group>"; };
+		3F4794AA19527A5B000229A4 /* OwnerTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OwnerTabBarViewController.m; sourceTree = "<group>"; };
+		3F6C6CE51952204C00EF017A /* ProfileTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileTableViewCell.h; sourceTree = "<group>"; };
+		3F6C6CE61952204C00EF017A /* ProfileTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileTableViewCell.m; sourceTree = "<group>"; };
+		3F6C6CEB1952208700EF017A /* OwnerRenterTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OwnerRenterTableViewCell.h; sourceTree = "<group>"; };
+		3F6C6CEC1952208700EF017A /* OwnerRenterTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OwnerRenterTableViewCell.m; sourceTree = "<group>"; };
+		3F8C567E195795990011780F /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		3F8C567F195795990011780F /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		3F8C568119579B1C0011780F /* Annotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Annotation.h; sourceTree = "<group>"; };
+		3F8C568219579B1C0011780F /* Annotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Annotation.m; sourceTree = "<group>"; };
+		3FAC57771969B67900A818D0 /* hamburger_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hamburger_icon.png; sourceTree = "<group>"; };
+		3FAC577B1969C41600A818D0 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		3FAC577C1969C41600A818D0 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		3FAC577E1969C42A00A818D0 /* Item.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Item.h; sourceTree = "<group>"; };
+		3FAC577F1969C42A00A818D0 /* Item.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Item.m; sourceTree = "<group>"; };
+		3FDBC7C119526DDF004975F8 /* ProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
+		3FDBC7C219526DDF004975F8 /* ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
 		3FDD128D194EB58F0039C2A4 /* NeighbourRentingApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NeighbourRentingApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FDD1290194EB58F0039C2A4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		3FDD1292194EB58F0039C2A4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -45,14 +88,23 @@
 		3FDD129F194EB5900039C2A4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3FDD12A0194EB5900039C2A4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		3FDD12A3194EB5900039C2A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		3FDD12A5194EB5900039C2A4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		3FDD12A6194EB5900039C2A4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		3FDD12A8194EB5900039C2A4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		3FDD12AE194EB5900039C2A4 /* NeighbourRentingAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NeighbourRentingAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FDD12AF194EB5900039C2A4 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		3FDD12B7194EB5900039C2A4 /* NeighbourRentingAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NeighbourRentingAppTests-Info.plist"; sourceTree = "<group>"; };
 		3FDD12B9194EB5900039C2A4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3FDD12BB194EB5900039C2A4 /* NeighbourRentingAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NeighbourRentingAppTests.m; sourceTree = "<group>"; };
+		3FDD12C5194EB6EA0039C2A4 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FacebookSDK.framework; sourceTree = "<group>"; };
+		3FDD12C7194EB8060039C2A4 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LoginViewController.h; path = ../LoginViewController.h; sourceTree = "<group>"; };
+		3FDD12C8194EB8060039C2A4 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LoginViewController.m; path = ../LoginViewController.m; sourceTree = "<group>"; };
+		3FE2C457196A3C3D0098DBCD /* ItemsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemsViewController.h; sourceTree = "<group>"; };
+		3FE2C458196A3C3D0098DBCD /* ItemsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemsViewController.m; sourceTree = "<group>"; };
+		3FE2C45A196A3EBF0098DBCD /* ItemViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemViewCell.h; sourceTree = "<group>"; };
+		3FE2C45B196A3EBF0098DBCD /* ItemViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemViewCell.m; sourceTree = "<group>"; };
+		3FE75E76195772C300AEB70B /* PickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PickerViewController.h; sourceTree = "<group>"; };
+		3FE75E77195772C300AEB70B /* PickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PickerViewController.m; sourceTree = "<group>"; };
+		3FE75E791957837300AEB70B /* PickerFormViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PickerFormViewController.h; sourceTree = "<group>"; };
+		3FE75E7A1957837300AEB70B /* PickerFormViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PickerFormViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +113,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3FDD1293194EB58F0039C2A4 /* CoreGraphics.framework in Frameworks */,
+				3FDD12C6194EB6EA0039C2A4 /* FacebookSDK.framework in Frameworks */,
 				3FDD1295194EB58F0039C2A4 /* UIKit.framework in Frameworks */,
 				3FDD1291194EB58F0039C2A4 /* Foundation.framework in Frameworks */,
 			);
@@ -79,6 +132,61 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3FAC577A1969C3ED00A818D0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3FAC577B1969C41600A818D0 /* User.h */,
+				3FAC577C1969C41600A818D0 /* User.m */,
+				3FAC577E1969C42A00A818D0 /* Item.h */,
+				3FAC577F1969C42A00A818D0 /* Item.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		3FDBC7BF19526D7D004975F8 /* Table View Cells */ = {
+			isa = PBXGroup;
+			children = (
+				3F6C6CE51952204C00EF017A /* ProfileTableViewCell.h */,
+				3F6C6CE61952204C00EF017A /* ProfileTableViewCell.m */,
+				3F6C6CEB1952208700EF017A /* OwnerRenterTableViewCell.h */,
+				3F6C6CEC1952208700EF017A /* OwnerRenterTableViewCell.m */,
+			);
+			name = "Table View Cells";
+			sourceTree = "<group>";
+		};
+		3FDBC7C019526DA0004975F8 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				3FDD12C7194EB8060039C2A4 /* LoginViewController.h */,
+				3FDD12C8194EB8060039C2A4 /* LoginViewController.m */,
+				3F0FFB671950F8180041487E /* MainViewController.h */,
+				3F0FFB681950F8180041487E /* MainViewController.m */,
+				3F0FFB691950F8180041487E /* CenterViewController.h */,
+				3F0FFB6A1950F8180041487E /* CenterViewController.m */,
+				3F0FFB6B1950F8180041487E /* LeftPanelViewController.h */,
+				3F0FFB6C1950F8180041487E /* LeftPanelViewController.m */,
+				3FDBC7C119526DDF004975F8 /* ProfileViewController.h */,
+				3FDBC7C219526DDF004975F8 /* ProfileViewController.m */,
+				3F4794A919527A5B000229A4 /* OwnerTabBarViewController.h */,
+				3F4794AA19527A5B000229A4 /* OwnerTabBarViewController.m */,
+				3FE75E76195772C300AEB70B /* PickerViewController.h */,
+				3FE75E77195772C300AEB70B /* PickerViewController.m */,
+				3FE75E791957837300AEB70B /* PickerFormViewController.h */,
+				3FE75E7A1957837300AEB70B /* PickerFormViewController.m */,
+				3F0272A8195794A3009C1F59 /* RenterTabBarController.h */,
+				3F0272A9195794A3009C1F59 /* RenterTabBarController.m */,
+				3F8C567E195795990011780F /* MapViewController.h */,
+				3F8C567F195795990011780F /* MapViewController.m */,
+				3F8C568119579B1C0011780F /* Annotation.h */,
+				3F8C568219579B1C0011780F /* Annotation.m */,
+				3FE2C457196A3C3D0098DBCD /* ItemsViewController.h */,
+				3FE2C458196A3C3D0098DBCD /* ItemsViewController.m */,
+				3FE2C45A196A3EBF0098DBCD /* ItemViewCell.h */,
+				3FE2C45B196A3EBF0098DBCD /* ItemViewCell.m */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
 		3FDD1284194EB58F0039C2A4 = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +209,7 @@
 		3FDD128F194EB58F0039C2A4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				3FDD12C5194EB6EA0039C2A4 /* FacebookSDK.framework */,
 				3FDD1290194EB58F0039C2A4 /* Foundation.framework */,
 				3FDD1292194EB58F0039C2A4 /* CoreGraphics.framework */,
 				3FDD1294194EB58F0039C2A4 /* UIKit.framework */,
@@ -112,12 +221,14 @@
 		3FDD1296194EB58F0039C2A4 /* NeighbourRentingApp */ = {
 			isa = PBXGroup;
 			children = (
+				3FDD12A8194EB5900039C2A4 /* Images.xcassets */,
+				3FAC57771969B67900A818D0 /* hamburger_icon.png */,
 				3FDD129F194EB5900039C2A4 /* AppDelegate.h */,
 				3FDD12A0194EB5900039C2A4 /* AppDelegate.m */,
 				3FDD12A2194EB5900039C2A4 /* Main.storyboard */,
-				3FDD12A5194EB5900039C2A4 /* ViewController.h */,
-				3FDD12A6194EB5900039C2A4 /* ViewController.m */,
-				3FDD12A8194EB5900039C2A4 /* Images.xcassets */,
+				3FDBC7C019526DA0004975F8 /* View Controllers */,
+				3FAC577A1969C3ED00A818D0 /* Model */,
+				3FDBC7BF19526D7D004975F8 /* Table View Cells */,
 				3FDD1297194EB58F0039C2A4 /* Supporting Files */,
 			);
 			path = NeighbourRentingApp;
@@ -230,6 +341,7 @@
 			files = (
 				3FDD12A9194EB5900039C2A4 /* Images.xcassets in Resources */,
 				3FDD129B194EB58F0039C2A4 /* InfoPlist.strings in Resources */,
+				3FAC57781969B67900A818D0 /* hamburger_icon.png in Resources */,
 				3FDD12A4194EB5900039C2A4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -249,9 +361,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3FDD12A7194EB5900039C2A4 /* ViewController.m in Sources */,
+				3FAC577D1969C41600A818D0 /* User.m in Sources */,
+				3F8C568319579B1C0011780F /* Annotation.m in Sources */,
+				3F4794AB19527A5B000229A4 /* OwnerTabBarViewController.m in Sources */,
+				3F0FFB711950F8180041487E /* LeftPanelViewController.m in Sources */,
+				3FE75E7B1957837300AEB70B /* PickerFormViewController.m in Sources */,
+				3FDBC7C319526DDF004975F8 /* ProfileViewController.m in Sources */,
+				3FDD12C9194EB8060039C2A4 /* LoginViewController.m in Sources */,
+				3F6C6CE71952204C00EF017A /* ProfileTableViewCell.m in Sources */,
+				3FE2C45C196A3EBF0098DBCD /* ItemViewCell.m in Sources */,
+				3F6C6CED1952208700EF017A /* OwnerRenterTableViewCell.m in Sources */,
+				3FE75E78195772C300AEB70B /* PickerViewController.m in Sources */,
 				3FDD12A1194EB5900039C2A4 /* AppDelegate.m in Sources */,
+				3F0272AA195794A3009C1F59 /* RenterTabBarController.m in Sources */,
+				3FAC57801969C42A00A818D0 /* Item.m in Sources */,
 				3FDD129D194EB58F0039C2A4 /* main.m in Sources */,
+				3F0FFB6F1950F8180041487E /* MainViewController.m in Sources */,
+				3FE2C459196A3C3D0098DBCD /* ItemsViewController.m in Sources */,
+				3F0FFB701950F8180041487E /* CenterViewController.m in Sources */,
+				3F8C5680195795990011780F /* MapViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -335,6 +463,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-ObjC";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -366,6 +495,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				OTHER_LDFLAGS = "-ObjC";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -376,6 +506,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "NeighbourRentingApp/NeighbourRentingApp-Prefix.pch";
 				INFOPLIST_FILE = "NeighbourRentingApp/NeighbourRentingApp-Info.plist";
@@ -389,6 +523,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "NeighbourRentingApp/NeighbourRentingApp-Prefix.pch";
 				INFOPLIST_FILE = "NeighbourRentingApp/NeighbourRentingApp-Info.plist";
@@ -456,6 +594,7 @@
 				3FDD12C1194EB5900039C2A4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3FDD12C2194EB5900039C2A4 /* Build configuration list for PBXNativeTarget "NeighbourRentingAppTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +603,7 @@
 				3FDD12C4194EB5900039C2A4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
